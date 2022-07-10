@@ -1,0 +1,54 @@
+.welcometxt {
+    font-size: 2rem;
+    color: rgb(239, 239, 239);
+    font-family: 'SatindarOPDash';
+    position: absolute;
+    top:  40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 500ms ease;
+}
+
+.welcometxt:hover {
+    font-size: 2.5rem;
+    color: white;
+    font-family: 'SatindarOPDash';
+    position: absolute;
+    top:  40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 3rem;
+}
+
+body {
+    background-color: rgb(18, 18, 18);
+}
+
+@font-face {
+    font-family: 'SatindarOP';
+    src: url(../public/quicksand/Quicksand-Regular.otf);
+  }
+  
+  @font-face {
+    font-family: 'SatindarOPbold';
+    src: url(../public/quicksand/Quicksand-Bold.otf);
+  }
+  
+  @font-face {
+    font-family: 'SatindarOPDASH';
+    src: url(../public/quicksand/Quicksand_Dash.otf);
+  }
+  
+  @font-face {
+    font-family: 'Walter Turncoat';
+    src: url(../public/walter/WalterTurncoat-Regular.ttf);
+  }
+  @font-face {
+    font-family: 'sniglet';
+    src: url(../public/sniglet/Sniglet-Regular.ttf);
+  }
+  @font-face {
+    font-family: 'sniglet-bold';
+    src: url(../public/sniglet/Sniglet-ExtraBold.ttf);
+  }
+  
